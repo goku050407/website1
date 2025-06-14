@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet " href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+  <style>
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Thriloka's Portfolio</div>
+      <div class="right">
+        <ul>
+          <a href=""><li>Home</li></a>
+          <a href=""><li>About</li></a>
+          <a href=""><li>Services</li></a>
+          <a href=""><li>Projects</li></a>
+          <a href="+918073048824"><li>Contact Me</li></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My name is <span class="pur">Thriloka</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <img src="bg.png" alt="Portfolio Image" />
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="secondsection">
+      <span class="textgray">What I have done so far</span>
+      <h1>Work Experience & Skills</h1>
+      <div class="skills-grid">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" />
+          <span>HTML</span>
+        </a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" />
+          <span>CSS</span>
+        </a>
+        <a href="https://www.oracle.com/java/" target="_blank" class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java" />
+          <span>Java</span>
+        </a>
+        <a href="https://www.python.org/" target="_blank" class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python" />
+          <span>Python</span>
+        </a>
+        <a href="https://www.mysql.com/" target="_blank" class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/528/528260.png" alt="MySQL" />
+          <span>MySQL</span>
+        </a>
+      </div>
+    </section>
+    <footer>
+  <div class="footer-container">
+    <p>© 2025 Thriloka's Portfolio | All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Gamer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
